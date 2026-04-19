@@ -1,0 +1,8 @@
+name = "studio-hustle"
+type = "javascript"
+
+[env.production]
+name = "studio-hustle-prod"
+routes = [
+  { pattern = "studio-hustle.pages.dev" }
+]
